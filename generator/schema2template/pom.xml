@@ -101,7 +101,7 @@
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<!-- Explizit version required for fix on systemPropertyVariables -->
-				<version>2.19.1</version>
+				<version>3.0.0-M1</version>
 				<configuration>
 					<systemPropertyVariables>
 						<odfdom.version>${project.version}</odfdom.version>

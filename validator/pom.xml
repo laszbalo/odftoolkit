@@ -366,7 +366,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
-                <version>2.20</version>
+                <version>3.0.0-M1</version>
                 <configuration>
                     <includes>                                        
                         <include>**/*.java</include>
@@ -421,7 +421,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-failsafe-plugin</artifactId>
-				<version>2.20</version>
+				<version>3.0.0-M1</version>
 				<reportSets>
 					<reportSet>
 						<id>integration-tests</id>
